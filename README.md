@@ -5,15 +5,15 @@ A simple Java application that represents ride booking system. The system manage
 
 ## Classes
 
-**Route** — Represents a fixed trip route.
+**Route** : Represents a fixed trip route.
 - pickUpAddress, destAddress, tripPrice
 - Getters/setters.
 
-**Car** — Represents a car available for booking.
+**Car** : Represents a car available for booking.
 - car code, maxCapacity, route (which is a Route object)
 - Getters/setters.
 
-**Passenger** (abstract, parent class) — Base class for all passenger types.
+**Passenger** (abstract, parent class) : Base class for all passenger types.
 - attributes: name, ID, reservedCar
 - Abstract methods:
   - reserveCar(Car car): reserves the car and returns the computed trip cost.
