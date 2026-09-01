@@ -17,7 +17,7 @@ public class SubscriberPassenger extends Passenger {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-        return 0.0;
+        return reservedCar.route.getTripPrice();
     }
 
     @Override
